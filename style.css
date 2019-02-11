@@ -1,0 +1,54 @@
+* {
+	box-sizing: content-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: georgia, serif;
+	font-weight: 100
+	font-style: oblique;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background-color: lime;
+
+
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+main {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.deadpool {
+	display: inline-block
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+    background: transparent url("images/deadpool.jpg") no-repeat 0 0;
+    background-image: url(images/deadpool.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.pikachu {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+    background-image: url(images/pikachu.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.deadpool:hover {
+	background-position: 0 -50px;
+	background: transparent url("images/pikachu.jpg")
+}
