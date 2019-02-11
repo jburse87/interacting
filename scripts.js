@@ -3,11 +3,11 @@
 var image = document.getElementById('image')
 
 function newPicture () {
-	image.src="images/pikachu.jpg";
+	image.src="pikachu.jpg";
 }
 
 function oldPicture () {
-	image.src="images/deadpool.jpg";
+	image.src="deadpool.jpg";
 }
 
 image.addEventListener('mouseenter', newPicture)
